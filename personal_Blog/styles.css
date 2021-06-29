@@ -1,0 +1,252 @@
+/* html{
+    font-family: 'Merriweather Sans', sans-serif;
+    margin:0;
+}
+
+/* Header Design */
+header{
+    background-color:#B08968;
+    margin:0;
+    text-align:center;
+    padding:0;
+}
+
+header li{
+    display:inline-block;
+    margin:0 2rem;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+    margin-bottom: 1rem;
+}
+
+/* Main Body Design */
+main{
+    background-color:gray;
+    margin:0;
+}
+
+main > img{
+    position:fixed;
+    height:100%;
+}
+
+header{
+    display:flex;
+    flex-direction:column;
+}
+
+.chicken-image{
+    background-color:blue;    
+    background:url(images/chicken.jpg) no-repeat center center fixed;
+    min-height:100vh;
+    min-width:100vw;
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Bungee', cursive;
+    font-size:3em;
+    color:white;
+}
+
+.chicken-image2{
+    background:url(images/chicken2.jpg) no-repeat center center fixed;
+    min-height:100vh;
+    min-width:100vw;
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Bungee', cursive;
+    font-size:3em;
+    color:white;
+}
+
+.chicken-image3{
+    background:url(images/chicken3.jpg) no-repeat center center fixed;
+    min-height:100vh;
+    min-width:100vw;
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Bungee', cursive;
+    font-size:3em;
+    color:white;
+}
+
+.chicken-image4{
+    background:url(images/chicken4.jpg) no-repeat center center fixed;
+    min-height:100vh;
+    min-width:100vw;
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Bungee', cursive;
+    font-size:3em;
+    color:white;
+}
+
+.chicken-image5{
+    background:url(images/chicken5.jpg) no-repeat center center fixed;
+    min-height:100vh;
+    min-width:100vw;
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Bungee', cursive;
+    font-size:3em;
+    color:white;
+}
+
+.chicken-image6{
+    background:url(images/chicken6.jpg) no-repeat center center fixed;
+    min-height:100vh;
+    min-width:100vw;
+    background-size:cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Bungee', cursive;
+    font-size:3em;
+    color:white;
+}
+
+.introText{
+    font-size:15vh;
+    padding:0;
+    text-shadow: grey;
+    border:none;
+
+}
+
+
+.chicken{
+    font-size:20vh;
+    padding:0;
+    text-shadow: grey;
+    border:none;
+    display:inline-block;
+    line-height: 15vh;
+    height:15vh;
+    margin-bottom: -5vh;
+}
+
+.berblog{
+    font-size:10vh;
+    padding:1rem;
+    border-radius: 1rem;
+    background-color:rgba(127, 85, 57, 0.6);
+    display:inline-block;
+    line-height: 70%;
+    height:70%;
+}
+
+nav{
+    margin-top:5vh;
+    align-items: center;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav > a{
+    background-color: #B08968;
+    padding:2vh 3vh;
+    margin:0 3vh;
+    border-radius:0.5rem;
+    color:white;
+    font-family: 'Merriweather Sans', sans-serif;
+    border:none;
+    text-decoration: none;
+    font-size:large;
+    
+}
+
+nav>a:hover{
+    background:#9C6644;
+    text-decoration: underline;
+}
+
+
+/* Footer Design */
+
+
+/* Responsive Code */
+
+@media(min-width:1000px){
+    body{
+        max-width:2400px;
+        margin: 0;
+    }
+    header{
+        flex-direction:row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    header ul{
+        margin-bottom: 0;
+    }
+    header li{
+        display:inline-block;
+        margin:0 0.5rem;
+    }
+    header nav{
+        text-align:right;
+        margin:1rem 2rem;
+    }
+    header h1{
+        text-align:left;
+        margin:1rem 2rem;
+    }
+    header h1, header nav{
+        flex:1;
+    }
+    .chicken{
+        font-size:15vw;
+        text-shadow: grey;
+        display:inline-block;
+        line-height: 15vw;
+        height:15vw;
+    }
+
+    .introText{
+        font-size:15vw;
+        padding:0;
+        text-shadow: grey;
+        border:none;
+        display:block;
+    }
+
+    .chicken-image{
+    min-height:110vh;
+    }
+    .chicken-image2{
+        min-height:110vh;
+    }
+    .chicken-image3{
+        min-height:110vh;
+    }
+    .chicken-image4{
+        min-height:110vh;
+    }
+    .chicken-image5{
+        min-height:110vh;
+    }
+    .chicken-image6{
+        min-height:110vh;
+    }
+
